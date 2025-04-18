@@ -1,58 +1,65 @@
-# 2048 Game in TypeScript
+# 2048 게임 (TypeScript)
 
-A classic 2048 game implementation using TypeScript, HTML, and CSS.
+TypeScript, HTML, CSS를 사용하여 구현한 클래식 2048 게임입니다.
 
-## Features
+## 주요 기능
 
-- Classic 2048 gameplay
-- Score tracking
-- Responsive design
-- Smooth animations
-- Game over detection
+- 클래식 2048 게임플레이
+- 점수 기록
+- 반응형 디자인
+- 부드러운 애니메이션
+- 게임 오버 감지
 
-## How to Play
+## 게임 방법
 
-1. Use the arrow keys to move tiles:
-   - ↑ (Up Arrow): Move all tiles up
-   - ↓ (Down Arrow): Move all tiles down
-   - ← (Left Arrow): Move all tiles left
-   - → (Right Arrow): Move all tiles right
+1. 방향키를 사용하여 타일을 이동:
+   - ↑ (위 방향키): 모든 타일을 위로 이동
+   - ↓ (아래 방향키): 모든 타일을 아래로 이동
+   - ← (왼쪽 방향키): 모든 타일을 왼쪽으로 이동
+   - → (오른쪽 방향키): 모든 타일을 오른쪽으로 이동
 
-2. When two tiles with the same number collide, they merge into one tile with the sum of their values.
+2. 같은 숫자의 타일이 충돌하면 하나로 합쳐지며 값이 두 배가 됩니다.
 
-3. After each move, a new tile (either 2 or 4) appears in a random empty cell.
+3. 매 이동 후에 새로운 타일(2 또는 4)이 무작위 빈 칸에 생성됩니다.
 
-4. The game ends when:
-   - You reach the 2048 tile (win)
-   - No more moves are possible (game over)
+4. 게임 종료 조건:
+   - 2048 타일 달성 시 승리
+   - 더 이상 이동할 수 없을 때 게임 오버
 
-## Installation
+## 설치 방법
 
-1. Clone the repository
-2. Install dependencies:
+1. 저장소 클론
+2. 의존성 설치:
    ```bash
    npm install
    ```
 
-## Running the Game
+## 게임 실행 방법
 
-1. Start the development server:
+1. 개발 서버 시작:
    ```bash
    npm start
    ```
 
-2. Open your browser and navigate to `http://localhost:1234`
+2. 브라우저에서 `http://localhost:1234` 접속
 
-## Building for Production
+## 프로덕션 빌드
 
-To create a production build:
+프로덕션 빌드 생성:
 
 ```bash
 npm run build
 ```
 
-The built files will be in the `dist` directory.
+빌드된 파일은 `dist` 디렉토리에 생성됩니다.
 
-## License
+## 기술 스택
+
+- TypeScript
+- HTML5
+- CSS3
+- Parcel (번들러)
+
+## 라이선스
 
 MIT 
